@@ -1,0 +1,19 @@
+extends layout
+
+block content
+    
+    <div class="flexyAds">
+    h3 These are the available ads
+        ul.list-group 
+        <div id="ad">
+        each list_item in list_items
+            li.list-group-item
+                a(href="/list/item/"+list_item.id)= list_item.title
+                    br
+                    <img id="image" src="/#{list_item.image}">
+        </div>
+    </div>
+    
+        
+        
+    

@@ -1,0 +1,18 @@
+extends layout
+
+block content
+    br
+    h3 Post Add
+    form(method="POST",action="/list/add",enctype="multipart/form-data")
+        #form-group
+            label Title:
+            input.form-control(name="title",type="text",required)
+        #form-group
+            label Image:
+            input.form-control(name="image",id="img" ,type="file",required)
+        #form-group
+            label Details:
+            textarea.form-control(name="body" ,rows="10",required)
+        
+        br
+        input.btn.btn-primary.float-right(type="submit",value="Submit")

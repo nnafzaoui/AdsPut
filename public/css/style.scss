@@ -1,0 +1,59 @@
+$black: black;
+$alertRed: #a94442;
+$white: #f2dede;
+$borderWhite: #ebccd1;
+$succesGreen:#3c763d;
+.alert-error{
+    color: $alertRed;
+    background-color: $white;
+    border-color: $borderWhite;   
+   }
+   .alert-success_msg{
+       color: $succesGreen;
+       background-color: #dff0d8;
+       border-color: #d6e9c6;   
+   }
+   
+   .main-c{
+       padding-top: 60px;
+   }
+#logo{
+    width: 50px;
+    height: 50px;
+}
+.flexyAds{
+   text-align: center;
+   #ad{
+       display: flex;
+       flex-direction: column-reverse;
+       text-align: center;
+       padding: 5px;
+       margin-bottom: 10px;
+       a {
+           color: black;
+           font-size: 20px;
+           font-weight: 400;
+           text-decoration: none;
+            padding-bottom: 10px;
+       }
+       li {
+           margin-top: 40px;
+       }
+      #image{
+        width: 90%;
+        height: 90%;
+        }
+       
+   }
+}
+   #img{
+    padding: 0;
+    height: auto;
+    }
+.blank{
+    height: 200px;
+}
+footer{
+    background-color: $black;
+    height:50px;
+}

@@ -1,0 +1,16 @@
+extends layout
+
+block content
+    h2= item.title
+    strong Posted by #{author}
+    br
+    br
+    <img style="width:300px;", src="/#{item.image}">
+    br
+    br
+    p= item.body
+    br
+    
+    p <strong>Contact Us:</strong> #{contact}     
+
+
